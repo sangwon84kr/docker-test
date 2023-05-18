@@ -1,2 +1,12 @@
-# docker-test
-도커 빌드 스크립트 
+# Docker build
+```
+git clone https://github.com/nowage/docker-test
+cd docker-test/UbuntuDocker
+docker build --rm -t nowage/ut:v2 .
+docker images
+```
+
+# Docker run 
+```
+docker run -it --name ut -v ~/df:/df --rm nowage/ut:2
+```
